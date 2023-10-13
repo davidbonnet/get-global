@@ -10,7 +10,7 @@
 
 ### Functions
 
-- [default](README.md#default)
+- [getGlobal](README.md#getglobal)
 
 ## Type Aliases
 
@@ -20,13 +20,13 @@
 
 #### Defined in
 
-[types.ts:1](https://github.com/davidbonnet/get-global/blob/12b5bf8/lib/types.ts#L1)
+[types.ts:1](https://github.com/davidbonnet/get-global/blob/5214972/lib/types.ts#L1)
 
 ## Functions
 
-### default
+### getGlobal
 
-▸ **default**(): [`GlobalThis`](README.md#globalthis)
+▸ **getGlobal**(): [`GlobalThis`](README.md#globalthis)
 
 Returns the global object.
 
@@ -38,4 +38,4 @@ Global object.
 
 #### Defined in
 
-[main.ts:10](https://github.com/davidbonnet/get-global/blob/12b5bf8/lib/main.ts#L10)
+getGlobal.ts:8

@@ -7,7 +7,9 @@
 The main function is default exported from the main entry-point through an ES6 module:
 
 ```js
-import getGlobal from "@davidbonnet/get-global";
+import { getGlobal } from "@davidbonnet/get-global";
+
+const { setTimeout } = getGlobal();
 ```
 
 ## Installation
