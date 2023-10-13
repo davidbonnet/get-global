@@ -2,15 +2,14 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
-  plugins: ["import", "inferno", "tailwindcss"],
+  plugins: ["import"],
   extends: [
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/typescript",
-    "preact",
     "prettier",
-    "plugin:tailwindcss/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -20,18 +19,8 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  overrides: [
-    {
-      files: ["**/*.test.ts", "**/*.test.tsx"],
-      plugins: ["vitest"],
-      extends: ["plugin:vitest/recommended"],
-    },
-  ],
   rules: {
     "prettier/prettier": "off",
-    "tailwindcss/classnames-order": "off",
-    "tailwindcss/no-custom-classname": "off",
-    "inferno/jsx-props-class-name": ["error", "class"],
     "arrow-body-style": ["error", "as-needed"],
     camelcase: [
       "error",
@@ -68,7 +57,6 @@ module.exports = {
         },
       },
     ],
-    "jest/no-deprecated-functions": "off",
     "line-comment-position": [
       "error",
       {
@@ -127,15 +115,6 @@ module.exports = {
       {
         avoidEscape: true,
         allowTemplateLiterals: false,
-      },
-    ],
-    "react/jsx-key": "off",
-    "react/jsx-boolean-value": "error",
-    "react/jsx-curly-brace-presence": [
-      "error",
-      {
-        children: "ignore",
-        props: "never",
       },
     ],
     "spaced-comment": ["error", "always"],

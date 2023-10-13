@@ -1,48 +1,41 @@
-foundation
+@davidbonnet/get-global
 
-# foundation
+# @davidbonnet/get-global
 
 ## Table of contents
 
 ### Type Aliases
 
-- [Any](README.md#any)
+- [GlobalThis](README.md#globalthis)
 
 ### Functions
 
-- [add](README.md#add)
+- [default](README.md#default)
 
 ## Type Aliases
 
-### Any
+### GlobalThis
 
-Ƭ **Any**: `boolean` \| `string` \| `number` \| `object` \| `symbol` \| ``null`` \| `undefined` \| `any`[] \| (...`args`: `any`[]) => `any`
+Ƭ **GlobalThis**: typeof `globalThis`
 
 #### Defined in
 
-types.ts:1
+[types.ts:1](https://github.com/davidbonnet/get-global/blob/12b5bf8/lib/types.ts#L1)
 
 ## Functions
 
-### add
+### default
 
-▸ **add**(`a`, `b`): `number`
+▸ **default**(): [`GlobalThis`](README.md#globalthis)
 
-Returns the sum of the two provided numbers.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `a` | `number` | First number umber. |
-| `b` | `number` | Other number. |
+Returns the global object.
 
 #### Returns
 
-`number`
+[`GlobalThis`](README.md#globalthis)
 
-The sum of both numbers.
+Global object.
 
 #### Defined in
 
-tools/add.ts:8
+[main.ts:10](https://github.com/davidbonnet/get-global/blob/12b5bf8/lib/main.ts#L10)
