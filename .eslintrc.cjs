@@ -5,12 +5,7 @@ module.exports = {
     node: true,
   },
   plugins: ["import"],
-  extends: [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/typescript",
-    "prettier",
-  ],
+  extends: ["eslint:recommended", "plugin:import/typescript", "prettier"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -47,6 +42,7 @@ module.exports = {
         exceptions: ["a", "b", "x", "y", "i", "j", "_", "io", "id", "fs", "to"],
       },
     ],
+    "import/extensions": ["error", "always", { ignorePackages: true }],
     "import/no-duplicates": "error",
     "import/order": [
       "error",
@@ -61,17 +57,6 @@ module.exports = {
       "error",
       {
         position: "above",
-      },
-    ],
-    "no-restricted-imports": [
-      "error",
-      {
-        patterns: [
-          "@material-ui/core/styles",
-          "!@material-ui/core/*",
-          "!@material-ui/icons/*",
-          "!@material-ui/styles/*",
-        ],
       },
     ],
     "no-sequences": "error",
