@@ -1,6 +1,6 @@
-@davidbonnet/get-global
+@nevoland/get-global
 
-# @davidbonnet/get-global
+# @nevoland/get-global
 
 ## Table of contents
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:1](https://github.com/davidbonnet/get-global/blob/5214972/lib/types.ts#L1)
+[types.ts:1](https://github.com/nevoland/get-global/blob/5214972/lib/types.ts#L1)
 
 ## Functions
 

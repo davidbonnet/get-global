@@ -1,5 +1,5 @@
 {
-  "name": "@davidbonnet/get-global",
+  "name": "@nevoland/get-global",
   "version": "2.0.1",
   "type": "module",
   "main": "./dist/main.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidbonnet/get-global.git"
+    "url": "https://github.com/nevoland/get-global.git"
   },
   "files": [
     "dist",
