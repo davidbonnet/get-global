@@ -33,7 +33,8 @@
   "scripts": {
     "test": "npm run lint && npm run format",
     "build": "tsc --project tsconfig.package.json",
-    "build:doc": "typedoc",
+    "build:doc": "typedoc --tsconfig tsconfig.package.json",
+    "build:doc:save": "typedoc --tsconfig tsconfig.package.json && git add -A && git commit -a -m 'Update doc'",
     "prepare": "npm run build",
     "format": "prettier --check './**/*.{css,scss,md,mdx,json,tsx,ts,jsx,js}'",
     "format:fix": "prettier --write './**/*.{css,scss,md,mdx,json,tsx,ts,jsx,js}'",

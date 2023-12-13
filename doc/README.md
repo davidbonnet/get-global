@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:1](https://github.com/nevoland/get-global/blob/5214972/lib/types.ts#L1)
+[types.ts:1](https://github.com/nevoland/get-global/blob/187cb7c/lib/types.ts#L1)
 
 ## Functions
 
@@ -38,4 +38,4 @@ Global object.
 
 #### Defined in
 
-getGlobal.ts:8
+[getGlobal.ts:8](https://github.com/nevoland/get-global/blob/187cb7c/lib/getGlobal.ts#L8)
