@@ -1,5 +1,9 @@
 import type { GlobalThis } from "./types";
 
+declare const window: GlobalThis;
+declare const global: GlobalThis;
+declare const self: GlobalThis;
+
 /**
  * Returns the global object.
  *
