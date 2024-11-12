@@ -1,41 +1,14 @@
-@nevoland/get-global
+**@nevoland/get-global** • **Docs**
+
+***
 
 # @nevoland/get-global
 
-## Table of contents
-
-### Type Aliases
-
-- [GlobalThis](README.md#globalthis)
-
-### Functions
-
-- [getGlobal](README.md#getglobal)
-
 ## Type Aliases
 
-### GlobalThis
-
-Ƭ **GlobalThis**: typeof `globalThis`
-
-#### Defined in
-
-[types.ts:1](https://github.com/nevoland/get-global/blob/187cb7c/lib/types.ts#L1)
+- [CommonKeys](type-aliases/CommonKeys.md)
+- [GlobalThis](type-aliases/GlobalThis.md)
 
 ## Functions
 
-### getGlobal
-
-▸ **getGlobal**(): [`GlobalThis`](README.md#globalthis)
-
-Returns the global object.
-
-#### Returns
-
-[`GlobalThis`](README.md#globalthis)
-
-Global object.
-
-#### Defined in
-
-[getGlobal.ts:8](https://github.com/nevoland/get-global/blob/187cb7c/lib/getGlobal.ts#L8)
+- [getGlobal](functions/getGlobal.md)
